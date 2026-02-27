@@ -35,6 +35,7 @@ addBtn.onclick = () => {
     render();
 };
 
+
 window.toggle = (index) => {
     tasks[index].completed = !tasks[index].completed;
     render();
